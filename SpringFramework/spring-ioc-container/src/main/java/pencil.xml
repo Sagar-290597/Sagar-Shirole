@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+            http://www.springframework.org/schema/beans/spring-beans.xsd
+            http://www.springframework.org/schema/context
+            http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+
+	<!-- <bean id="mypencil" class="driver.Pencil"> <property name="id" value="10"></property> 
+		<property name="price" value="7"></property> <property name="brand" value="Apsara"></property> 
+		</bean> -->
+
+	<bean id="mypencil" class="driver.Pencil">
+		<constructor-arg name="id" value="12"></constructor-arg>
+		<constructor-arg name="price" value="7"></constructor-arg>
+		<constructor-arg name="brand" value="Natraj"></constructor-arg>
+	</bean>
+	
+	<bean id="mypencil1" class="driver.Pencil">
+		<constructor-arg name="id" value="13"></constructor-arg>
+		<constructor-arg name="price" value="8"></constructor-arg>
+		<constructor-arg name="brand" value="Doms"></constructor-arg>
+	</bean>
+	
+	<bean id="mypencil2" class="driver.Pencil">
+		<constructor-arg name="id" value="14"></constructor-arg>
+		<constructor-arg name="price" value="10"></constructor-arg>
+		<constructor-arg name="brand" value="Classmate"></constructor-arg>
+	</bean>
+</beans>
