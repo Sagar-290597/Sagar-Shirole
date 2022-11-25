@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+            http://www.springframework.org/schema/beans/spring-beans.xsd
+            http://www.springframework.org/schema/context
+            http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+
+	<!-- <bean id="train1" class="constructor_injector.Train">
+		<constructor-arg name="id" value="100"></constructor-arg>
+		<constructor-arg name="train" value="Rajdhani_Express"></constructor-arg>
+		<constructor-arg name="price" value="1290"></constructor-arg>
+	</bean> -->
+	
+	<bean id="train2" class="constructor_injector.Train">
+		<constructor-arg name="id" value="101"></constructor-arg>
+		<constructor-arg name="train" value="Janshatabdi_Express"></constructor-arg>
+		<constructor-arg name="price" value="750"></constructor-arg>
+	</bean>
+	
+	<!-- <bean id="train3" class="constructor_injector.Train">
+		<constructor-arg name="id" value="102"></constructor-arg>
+		<constructor-arg name="train" value="Koyna_Express"></constructor-arg>
+		<constructor-arg name="price" value="650"></constructor-arg>
+	</bean> -->
+
+</beans>
